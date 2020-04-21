@@ -17,6 +17,8 @@ async def on_ready():
 
 @bot.command
 async def addblackword(pass_context=True):
-  
+  ch = bot.get_channel(701396000975355934)
+  m = msg.split(" ", 1)
+  ch.send('{}'.format(m))
 
-@
+
